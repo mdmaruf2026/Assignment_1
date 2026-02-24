@@ -37,6 +37,7 @@ body {
     background-color: #30B868;
     color: #FFFFFF;
     border: none;
+
 }
 /* Navbar end */
 
@@ -59,6 +60,20 @@ body {
     margin: 0 auto;
     padding: 70px 120px 134px 120px;   
 }
+
+ .banner_content .banner_btn_head{
+    color: #30B868;
+    width: 229px;
+    height: 36px;
+    font-size: 16px;
+    gap: 6px;
+    text-align: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 8px 12px 8px 12px;
+    border-radius: 50px;
+    margin-bottom: 16px;
+ }
  .banner_content h1{
     font-size: 72px;
     color: #FFFFFF;
