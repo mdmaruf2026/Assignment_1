@@ -299,5 +299,15 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.horizontile{
+  border: none;
+  height: 2px; 
+  background: #627382;
+  width: 90%;
+  padding-left: 120px;
+  padding-right: 120px;
+  margin: 40px auto;
+  border-radius: 5px;
+}
 /* Our Footer section end here  */ 
 
