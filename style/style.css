@@ -13,6 +13,8 @@ body {
     max-width: 1600px;
     width: 100%;
     margin: 0 auto;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 .navbar {
     display: flex;
@@ -134,7 +136,9 @@ body {
 
 /* Our card section start here */
 .our_cards {
-    margin-top: 0px;    
+    margin-top: 0px;
+    padding-left: 120px;
+    padding-right: 120px;    
 }
 .card_content_header {
     text-align: center;
@@ -187,7 +191,9 @@ body {
 /* Our The Solution start from here */
 
 .The_Solution_Part{
-    margin-bottom: 120px;
+    padding-bottom: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 .The_Solution_Content{
@@ -236,7 +242,9 @@ body {
 
 /* Our More Think section start here */
 .More_Think_Section{
-    margin-bottom: 120px;
+    padding-bottom: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 .More_Think_Section_Content{
     text-align: center;
