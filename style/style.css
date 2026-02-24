@@ -37,7 +37,9 @@ body {
     background-color: #30B868;
     color: #FFFFFF;
     border: none;
-
+}
+.nav_btn_1:hover{
+    background-color: #F95555;
 }
 /* Navbar end */
 
@@ -74,6 +76,9 @@ body {
     border-radius: 50px;
     margin-bottom: 16px;
  }
+ .banner_btn_head:hover {
+    background-color: #F95555;
+ }
  .banner_content h1{
     font-size: 72px;
     color: #FFFFFF;
@@ -98,13 +103,18 @@ body {
     text-align: center;
     color: #FFFFFF;
 }
-.banner_btn .banner_btn_1 {
+
+ .banner_btn_1 {
    width: 251px;
    background-color:  #469165;
    height: 50px;
    display: flex;
    align-items: center;
    justify-content: center;
+}
+
+.banner_btn_1:hover{
+    background-color: #F95555;
 }
 .banner_btn_2 {
    width: 198px;
@@ -115,6 +125,9 @@ body {
    justify-content: center;
    border: solid  #FFFFFF;
    text-decoration: none;
+}
+.banner_btn_2:hover{
+    background-color: #F95555;
 }
 /* Our Hero section end here */
 
@@ -274,7 +287,7 @@ body {
     display: flex;
     gap: 16px;
     width: 20px;
-    height: 20px;   
+    height: 20px; 
 }
 .Copyright_Text{
     color: #FFFFFF;
@@ -282,5 +295,5 @@ body {
     text-align: center;
     padding-bottom: 30px;
 }
-/* Our Footer section end here  */
+/* Our Footer section end here  */ 
 
