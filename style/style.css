@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+.container {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+.nav_items {
+    display: flex;
+    gap: 32px;
+}
+.nav_items li {
+    list-style: none;
+}
+.nav_items a {
+    text-decoration: none;
+    color: #000000;
+}
+.nav_btn_1 {
+    width: 164px;
+    height: 44px;
+    background-color: #30B868;
+    color: #FFFFFF;
+    border: none;
+}
+/* Navbar end */
+
+/* Our Hero section start from here */
+.hero_section{
+    background: url("../assets/hero-bg.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 674px;   
+}
+.banner_content{
+    width: 1380px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 70px 120px 134px 120px;   
+}
+ .banner_content h1{
+    font-size: 72px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.banner_content span {
+  color: #30B868;  
+} 
+ .banner_content p {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 32px;
+ }
+ .banner_content .banner_btn {
+    display: flex;
+    gap: 16px;
+    font-size: 16px;
+    width: 465px;
+    padding-top: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.banner_btn .banner_btn_1 {
+   width: 251px;
+   background-color:  #469165;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.banner_btn_2 {
+   width: 198px;
+   height: 52px;
+   background: transparent;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: solid  #FFFFFF;
+   text-decoration: none;
+}
+/* Our Hero section end here */
+
+
+/* Our card section start here */
+.our_cards {
+    margin-top: 0px;    
+}
+.card_content_header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+.card_content_header h1{
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+.card_content_header p{
+    font-size: 16px;
+}
+.project_card{
+    display: flex;
+    gap: 24px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #F95555;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+.icon img {
+    width: 32px;
+}
+.card_content_text {
+    text-align: center;
+    margin-bottom: 120px;
+}
+.card_content_text h3{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.card_content_text p{
+    font-size: 16px;
+}
+
+/* Our Project's Cards section end here */
+
+/* Our The Solution start from here */
+
+.The_Solution_Part{
+    margin-bottom: 120px;
+}
+
+.The_Solution_Content{
+    display: flex;
+}
+
+.oneline_content{
+    display: flex;
+}
+
+.The_solution_img {
+    width: 600px;
+    height: 600px;
+}
+
+.The_solution_text_part {
+    padding-left: 60px;
+    width: 700px;
+    padding-top: 100px;
+}
+.The_solution_text_part .p_title{
+    font-size: 16px;
+    color: #30B868;
+    padding: 16px;
+}
+.The_solution_text_part h2{
+    font-size: 48px;
+    color: #001931;
+    padding-bottom: 16px; 
+}
+.The_solution_text_part .p_header{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.oneline_content .oneline_img{
+    width: 20px;
+    height: 20px;
+}
+.oneline_content .oneline_p{
+    font-size: 16px;
+    color: #000000;
+    padding-bottom: 16px;
+}
+
+/* Our More Think section start here */
+.More_Think_Section{
+    margin-bottom: 120px;
+}
+.More_Think_Section_Content{
+    text-align: center;
+}
+.More_Think_Section_Content h3{
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+.More_Think_Section_Content .p1_More_Think_Section_Content{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+.More_Think_Section_Content .More_Think_Btn{
+    background: #30B868;
+    color: #FFFFFF;
+    border: none;
+    width: 194px;
+    height: 52px;
+    margin-bottom: 16px;
+}
+.More_Think_Section_Content .p2_More_Think_Section_Content{
+    font-size: 16px;
+    color: #627382;
+}
+/* Our More Think section end here */
+
+/* Our Footer section start here */
+.Footer_Section{
+    background-color: #001931;   
+}
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 120px 80px 120px;
+}
+.Footer_Left{
+    width: 350px;
+    height: 60px;
+}
+.Footer_right_P{
+    color: #FFFFFF;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+.Footer_right_img{
+    display: flex;
+    gap: 16px;
+    width: 20px;
+    height: 20px;   
+}
+.Copyright_Text{
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
